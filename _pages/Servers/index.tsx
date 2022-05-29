@@ -33,7 +33,7 @@ export default function Index() {
             </div>
             <div className="text-white mb-4">
               <h4 className="font-bold mb-2">Difficulty</h4>
-              <ul className="list-disc ml-3">
+              <ul className="list-disc ml-4">
                 <li>Zombie Day Speed </li>
                 <li>Zombie Night Speed </li>
                 <li>Zombie Feral Speed </li>
@@ -62,7 +62,7 @@ export default function Index() {
             </div>
             <div className="text-white mb-4">
               <h4 className="font-bold mb-2">Difficulty</h4>
-              <ul className="list-disc ml-3">
+              <ul className="list-disc ml-4">
                 <li>Zombie Day Speed </li>
                 <li>Zombie Night Speed </li>
                 <li>Zombie Feral Speed </li>
@@ -95,7 +95,7 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="text-white mb-4">
               <h4 className="font-bold mb-2">Difficulty</h4>
-              <ul className="list-disc ml-3">
+              <ul className="list-disc ml-4">
                 <li>Zombie Day Speed </li>
                 <li>Zombie Night Speed </li>
                 <li>Zombie Feral Speed </li>
@@ -122,7 +122,7 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-8 order-2 md:order-1">
             <div className="text-white mb-4">
               <h4 className="font-bold mb-2">Difficulty</h4>
-              <ul className="list-disc ml-3">
+              <ul className="list-disc ml-4">
                 <li>Zombie Day Speed </li>
                 <li>Zombie Night Speed </li>
                 <li>Zombie Feral Speed </li>
@@ -163,7 +163,7 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="text-white mb-4">
               <h4 className="font-bold mb-2">Difficulty</h4>
-              <ul className="list-disc ml-3">
+              <ul className="list-disc ml-4">
                 <li>Zombie Day Speed </li>
                 <li>Zombie Night Speed </li>
                 <li>Zombie Feral Speed </li>

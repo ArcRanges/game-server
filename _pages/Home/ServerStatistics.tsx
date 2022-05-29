@@ -6,7 +6,9 @@ import CardSocialTraffic from "components/Cards/CardSocialTraffic";
 export default function ServerStatistics() {
   return (
     <Container className="px-10 md:px-0">
-      <h2 className="text-center text-2xl font-bold mb-5">Server Statistics</h2>
+      <h2 className="text-center text-2xl font-bold mb-5 text-white">
+        Server Statistics
+      </h2>
 
       <CardLineChart />
 

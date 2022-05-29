@@ -11,6 +11,7 @@ import ServerStatistics from "_pages/Home/ServerStatistics";
 export default function Index() {
   return (
     <div className="relative">
+      <div className="fixed w-screen h-screen -z-2 bg-black" />
       <IndexNavbar fixed />
       <HeroBanner />
       <HeroSection />
