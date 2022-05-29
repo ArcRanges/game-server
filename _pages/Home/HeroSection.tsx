@@ -19,9 +19,11 @@ export default function HeroSection() {
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 mt-10 mb-5">
-        <div className="flex flex-col h-full">
+        <div className="flex flex-col h-full mb-5">
           <div className="flex flex-row justify-between items-center mb-5">
-            <h2 className="font-bold text-xl text-white">Top Players</h2>
+            <h2 className="font-bold  text-md md:text-xl text-white">
+              Top Players
+            </h2>
             <h4 className="text-gray-100 text-sm font-bold cursor-pointer">
               View More
             </h4>
@@ -63,7 +65,7 @@ export default function HeroSection() {
         </div>
         <div className="flex flex-col h-full">
           <div className="flex flex-row justify-between items-center mb-5">
-            <h2 className="font-bold text-xl text-white">
+            <h2 className="font-bold text-md md:text-xl text-white">
               <div className="flex flex-row items-center">
                 <span className="mr-1">Online Players (991 Online </span>
                 <Pulse />)
