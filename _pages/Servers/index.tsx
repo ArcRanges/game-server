@@ -11,9 +11,9 @@ export default function Index() {
       <IndexNavbar fixed />
       <HeroBanner />
 
-      <div className="pt-20" />
-
+      <div className="pt-10 md:pt-20" />
       <Container>
+        <h2 className="font-bold text-xl text-white mb-3">Our Servers</h2>
         <div className="grid md:grid-cols-2 gap-16">
           <div className="w-full">
             <ServerCard

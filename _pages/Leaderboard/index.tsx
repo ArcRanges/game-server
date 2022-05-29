@@ -15,7 +15,7 @@ export default function index() {
       <IndexNavbar fixed />
       <HeroBanner />
 
-      <div className="pt-20" />
+      <div className="pt-10 md:pt-20" />
       <Container>
         <h2 className="font-bold text-xl text-white mb-3">Leaderboard</h2>
 

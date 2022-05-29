@@ -13,7 +13,7 @@ const Td = ({ children, className = "" }) => (
 
 export default function Table({ headers, children }: TableProps) {
   return (
-    <table className="table-auto border-collapse h-full w-full">
+    <table className="table-auto border-collapse w-full">
       <thead className="bg-black text-gray-100">
         <tr>
           {headers.map((h: any, i: number) => (

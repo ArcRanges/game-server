@@ -67,8 +67,7 @@ export default function HeroSection() {
           <div className="flex flex-row justify-between items-center mb-5">
             <h2 className="font-bold text-md md:text-xl text-white">
               <div className="flex flex-row items-center">
-                <span className="mr-1">Online Players (991 Online </span>
-                <Pulse />)
+                <Pulse /> <span className="ml-2">Online Players (991) </span>
               </div>
             </h2>
             <h4 className="text-gray-100 text-sm font-bold cursor-pointer">
@@ -78,36 +77,46 @@ export default function HeroSection() {
           <Table headers={["Name", "Level", "Server"]}>
             <tbody>
               <tr className="border">
-                <Table.Td className="flex flex-row items-center h-full">
-                  <span className="mr-2">Malcolm</span> <Pulse />
+                <Table.Td className="">
+                  <div className="flex flex-row items-center">
+                    <span className="mr-2">Malcolm</span> <Pulse />
+                  </div>
                 </Table.Td>
                 <Table.Td>100</Table.Td>
                 <Table.Td>Lawolf</Table.Td>
               </tr>
               <tr className="border">
-                <Table.Td className="flex flex-row items-center h-full">
-                  <span className="mr-2">TheBrink</span> <Pulse />
+                <Table.Td className="">
+                  <div className="flex flex-row items-center">
+                    <span className="mr-2">TheBrink</span> <Pulse />
+                  </div>
                 </Table.Td>
                 <Table.Td>90</Table.Td>
                 <Table.Td>Aibatt</Table.Td>
               </tr>
               <tr className="border">
-                <Table.Td className="flex flex-row items-center h-full">
-                  <span className="mr-2">Avatar</span> <Pulse />
+                <Table.Td className="">
+                  <div className="flex flex-row items-center">
+                    <span className="mr-2">Avatar</span> <Pulse />
+                  </div>
                 </Table.Td>
                 <Table.Td>35</Table.Td>
                 <Table.Td>Terra</Table.Td>
               </tr>
               <tr className="border">
-                <Table.Td className="flex flex-row items-center h-full">
-                  <span className="mr-2">Aang</span> <Pulse />
+                <Table.Td className="">
+                  <div className="flex flex-row items-center">
+                    <span className="mr-2">Aang</span> <Pulse />
+                  </div>
                 </Table.Td>
                 <Table.Td>34</Table.Td>
                 <Table.Td>Terra</Table.Td>
               </tr>
               <tr className="border">
-                <Table.Td className="flex flex-row items-center h-full">
-                  <span className="mr-2">Marco</span> <Pulse />
+                <Table.Td className="">
+                  <div className="flex flex-row items-center">
+                    <span className="mr-2">Marco</span> <Pulse />
+                  </div>
                 </Table.Td>
                 <Table.Td>32</Table.Td>
                 <Table.Td>Terra</Table.Td>
