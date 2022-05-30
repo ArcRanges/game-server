@@ -1,4 +1,10 @@
-# GameServer
-A personal side-project app for hosting game servers written in NextJS + TypeScript.
+# Game Server
+A personal side-project app for hosting personal game servers written in NextJS + TypeScript.
+[View the site here](https://game-server-ohmcodes.vercel.app/)
 
-*In Progress*
+Stack (Frontend)
+- ReactJS + NextJS
+- TypeScript
+- Hosted in Vercel
+
+Backend work in progress
